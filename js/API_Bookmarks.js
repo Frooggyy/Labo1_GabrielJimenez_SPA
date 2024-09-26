@@ -1,4 +1,4 @@
-const API_URL = "https://shiny-zenith-comte.glitch.me";
+const API_URL = "https://shiny-zenith-comte.glitch.me/api/bookmarks";
 function API_GetBookmarks() {
     return new Promise(resolve => {
         $.ajax({
